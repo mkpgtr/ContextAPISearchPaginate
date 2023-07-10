@@ -6,15 +6,18 @@ import MovieList from './components/MovieList'
 import { AppBar } from '@mui/material'
 import PrimarySearchAppBar from './components/Navbar'
 import ProductList from './components/ProductList'
+import ProductContext from './contexts/chatGPTGuidance/ProductsContext'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <>
-   <PrimarySearchAppBar />
+   {/* <PrimarySearchAppBar /> */}
    {/* <MovieList /> */}
-   <ProductList />
+   {/* <ProductList /> */}
+   
+
    </>
   )
 }
